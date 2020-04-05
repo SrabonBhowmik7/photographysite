@@ -1,0 +1,300 @@
+body{
+  font-family: Century Gothic;
+  font-size: 15px;
+  line-height: 1.5p;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+  /*light grey background color*/
+}
+/*global*/
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+ul{
+
+	margin: 0;
+	padding: 0;
+
+
+}
+.package{
+	font-weight: bold;
+}
+.button1{
+  height:38px;
+  background:#e67e22;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+/*header*/
+header{
+  background:#35424a;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#e67e22 3px solid;
+}
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+
+header li {
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+	color:#e67e22;
+  	font-weight:bold;
+}
+.h{
+	font-weight: bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+/* Showcase */
+#showcase{
+  min-height:600px;
+  background:url('../img/showcase.jpg') no-repeat 0 -200px;
+  text-align:center;
+
+  color:#ffffff;
+}
+#showcase h1{
+  margin-top:50px;
+  font-size:55px;
+  padding-top:30px;
+  margin-bottom:10px;
+}
+#showcase p{
+  font-size:20px;
+}
+
+/* Newsletter */
+#newsletter{
+  padding:15px;
+  color:#ffffff;
+  background:#35424a
+}
+#newsletter h1{
+  float:left;
+}
+#newsletter form {
+  float:right;
+  margin-top:15px;
+}
+
+#newsletter input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+/* Boxes */
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+#boxes .box img{
+  width:90px;
+}
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#e67e22;
+  text-align: center;
+}
+
+/*parallax effect*/
+.photo-showcase
+{
+    
+    list-style:none;
+    width:100%;
+}
+.photo-showcase li
+{
+    display:block;
+    width:25%;
+    float:left;
+}
+
+.type-photo
+{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+.type-photo img
+{
+    width:100%;
+    height:auto;
+    transform:scale(1.15);
+    transition:all 0.5s;
+}
+
+.type-photo img:hover
+{
+    
+    transform: scale(1.05);
+}
+.photo
+{
+    margin-top:60px;
+}
+
+.arrange
+{
+    text-align: justify;
+}
+
+/* slide show effect */
+@keyframes slider {
+
+0% {
+	left: 0;
+}
+
+20% {
+	left: 0;
+}
+
+25% {
+	left: -100%;
+}
+
+45% {
+    left: -100%;
+
+}
+
+50% {
+		left: -200%;
+
+}
+
+70% {
+	left: -200%;
+}
+
+75% {
+	left: -300%;
+}
+
+95% {
+	left: -300%;
+}
+
+100% {
+	left: -400%;
+
+}
+
+}
+
+#slider {
+	overflow: hidden;
+}
+
+#slider figure img {
+	width: 20%;
+	float: left;
+}
+
+#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	text-align: left;
+	font-size: 0;
+	animation: 10s slider infinite; 
+
+}
+/*video center */
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+
+
+/* android app */ 
+nova3i img
+{
+    
+    width: 100%;
+    margin-left:100%;
+}
+.works-step 
+{
+    margin-top:50px;
+}
+.works-step div
+{
+    border: 1px solid #e67e22;
+    display: inline-block;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    
+}
+.works-step img
+{
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.clearfix
+{
+    zoom:1;
+}
+.clearfix:after
+{
+    visibility: hidden;
+    content: ".";
+    height: 0;
+    display: block;
+    clear: both;
+}
+.mobile
+{
+    margin-top: 60px;
+}
